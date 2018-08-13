@@ -1,0 +1,51 @@
+html {
+    height: 100vh; 
+    background: url(background.jpg);
+    background-size: cover;
+    font-size: 62.5%;
+    font-family: 'Nunito';
+}
+
+body {
+    margin: 0;
+
+}
+
+
+h1 {
+    font-size: 5rem;
+    color: #033861;
+    text-align: center;
+    margin: 0;
+    margin-top: 20%;
+}
+
+h2 {
+    font-size: 4rem;
+    color: #033861;
+    text-align: center;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    }
+
+.button {
+    background-color: #033861;
+    opacity: 0.5;
+    transition: 1s;
+    color: white;
+    font-size: 2rem;
+    margin: 0 4rem;
+    border-radius: 4rem;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
